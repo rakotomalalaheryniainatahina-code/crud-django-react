@@ -1,0 +1,37 @@
+POST  http://localhost:8000/api/transaction/
+Content-Type: application/json
+
+{
+    "text": "Tow teste",
+    "amount": 4000.00
+}
+
+###
+
+GET http://localhost:8000/api/transaction/ 
+
+
+###
+
+DELETE  http://localhost:8000/api/transaction/3054381e-3178-4b49-9155-c4a11a656b4f/
+
+###
+
+PUT  http://localhost:8000/api/transaction/01305fc5-f112-4721-a3c5-db1564fdfd35/
+Content-Type: application/json
+
+{
+    "text": "One teste",
+    "amount": "6000.00"
+}
+
+
+
+####
+
+PATCH http://localhost:8000/api/transaction/01305fc5-f112-4721-a3c5-db1564fdfd35/
+Content-Type: application/json
+
+{
+    "amount": "9000.00"
+}
