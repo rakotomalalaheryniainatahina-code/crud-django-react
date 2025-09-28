@@ -108,9 +108,9 @@ function App() {
       : 'bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100'
       }`}>
       <div className="flex justify-between backdrop-blur-lg px-5 py-3 items-center sticky top-0 z-50">
-        <FinancialDashboardLogo />
+        <img src="/logo.png" className="w-16 h-16" alt="logo" />
         {/* <p  className={`text-3xl font-semibold transition-colors duration-300 ${isDarkMode ? 'text-gray-200' : 'text-slate-800'
-                }`}>DÉPREVE</p> */}
+                }`}>Financial</p> */}
         <div className="flex gap-4">
           <div className="flex justify-center">
             <Dialog>
