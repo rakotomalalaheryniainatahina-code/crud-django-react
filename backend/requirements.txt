@@ -5,3 +5,4 @@ djangorestframework==3.16.1
 sqlparse==0.5.3
 gunicorn
 psycopg2-binary
+dj-database-url
