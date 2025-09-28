@@ -4,7 +4,6 @@
 import { useEffect, useState } from "react";
 import api from './api';
 import toast from "react-hot-toast";
-import FinancialDashboardLogo from "./components/FinancialDashboardLogo";
 import { Activity, ArrowDownCircle, ArrowUpCircle, Github, Moon, PlusCircle, Sun, Trash, TrendingDown, TrendingUp, Wallet } from "lucide-react";
 import {
   Table,
