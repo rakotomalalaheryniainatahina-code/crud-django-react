@@ -73,7 +73,7 @@ function App() {
         amount: Number(amounts),
       })
       getTransactions()
-
+      console.log(res.data)
       toast.success("Transaction added successfully")
       setText('')
       setAmounts('')
@@ -166,6 +166,7 @@ function App() {
                       <Button
                         onClick={addTransactions}
                         type="submit"
+                        disabled={loading}
                         className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white border-none rounded-md px-10 shadow-lg hover:shadow-xl transition-all duration-200"
                       >
                         Ajouter
