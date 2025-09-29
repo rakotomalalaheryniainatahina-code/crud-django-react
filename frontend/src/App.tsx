@@ -376,9 +376,9 @@ function App() {
         </div>
 
         <div className="w-full flex felx-row items-center justify-between">
-          <p>© RAKOTOMALALA <a className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent" target="_blank" href="https://mv-dev-me.vercel.app/">Hery Niaina Tahina</a></p>
+          <p>© RAKOTOMALALA <a className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent" target="_blank" href="https://orione-tech.vercel.app">Hery Niaina Tahina</a></p>
           <div>
-            <a href="#">
+            <a href="https://github.com/rakotomalalaheryniainatahina-code/crud-django-react/" target="_blank">
               <Github />
             </a>
           </div>
