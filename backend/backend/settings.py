@@ -55,7 +55,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173","https://financial-mv.vercel.app"
+    "http://localhost:5173","https://financial-orione.vercel.app/"
 ]
 
 ROOT_URLCONF = 'backend.urls'
